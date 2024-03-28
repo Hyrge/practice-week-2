@@ -9,4 +9,13 @@ int main() {
 	if (op == 2) res = minus(x, y);
 	printf("\nResult is [%d]\n", res);
 	return (0);
+
+#include <stdio.h>
+
+int minus(int x, int y) {
+return x - y;
+}
+
+int plus(int x, int y) {
+return x + y;
 }
